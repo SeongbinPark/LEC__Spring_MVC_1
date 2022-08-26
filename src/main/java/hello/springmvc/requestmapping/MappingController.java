@@ -4,6 +4,8 @@ import hello.springmvc.LogTestController;
 import lombok.Value;
 import org.springframework.web.bind.annotation.*;
 
+// 요청이 왔을때 어떤 컨트롤러에서 매핑을 할지 조사해서 매핑을 진행하는 것.
+
 @RestController
 public class MappingController {
 
